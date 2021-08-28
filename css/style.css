@@ -16,7 +16,7 @@ body {
 }
 
 .hero-container {
-  height: 100vh;
+  height: 710px;
   background-color: #f3c6bd;
 }
 
@@ -28,7 +28,7 @@ body {
   display: flex;
   max-width: 1400px;
   margin: auto;
-  padding: 25px;
+  padding: 25px 0;
 }
 
 .navigation-links {
@@ -42,6 +42,14 @@ body {
   float: left;
   color: rgb(25, 25, 26);
   padding-left: 45px;
+}
+
+.navigation-links a li:hover {
+  font-weight: 800;
+}
+
+.navigation-links a li:active {
+  font-weight: bold;
 }
 
 #cta-before {
@@ -64,7 +72,7 @@ body {
 
 /* Hero main section started */
 .hero-main-container {
-  max-width: 1350px;
+  max-width: 1400px;
   height: 80%;
   margin: auto;
   display: flex;
