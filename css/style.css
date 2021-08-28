@@ -1,0 +1,130 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid orange; */
+}
+
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* Main code starts from here */
+
+body {
+  font-family: "work sans", sans-serif;
+}
+
+.hero-container {
+  height: 100vh;
+  background-color: #f3c6bd;
+}
+
+.logo {
+  height: 65px;
+}
+
+.navigation-container {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  padding: 25px;
+}
+
+.navigation-links {
+  justify-content: flex-end;
+  margin: auto;
+  margin-right: 0px;
+}
+
+.navigation-links a li {
+  list-style: none;
+  float: left;
+  color: rgb(25, 25, 26);
+  padding-left: 45px;
+}
+
+#cta-before {
+  padding-right: 52px;
+}
+
+/* #cta-before::after {
+    content: " ⬇ ";
+} */
+
+#contact-nav {
+  background-color: #3040c4;
+  padding: 10px 20px;
+  margin-top: -10px;
+  color: #fff !important;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+/* Hero main section started */
+.hero-main-container {
+  max-width: 1350px;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: center;
+}
+
+.hero-text-container h1 {
+  font-size: 60px;
+  padding-bottom: 35px;
+}
+
+.hero-text-container p {
+  line-height: 1.5;
+}
+
+.hero-button {
+  padding-top: 50px;
+}
+
+#hero-btn {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-top: -10px;
+  margin-left: 5px;
+  color: #3040c4 !important;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* After header section start */
+
+.header-after-section {
+  height: 255px;
+  max-width: 1350px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.about-one {
+  /* max-width: 455px; */
+  width: 50%;
+}
+
+.about-one h4 {
+  padding-bottom: 10px;
+}
+
+.about-one p {
+  max-width: 455px;
+}
+
+.about-two {
+  max-width: 455px;
+}
+
+.about-two h4 {
+  padding-bottom: 10px;
+}
