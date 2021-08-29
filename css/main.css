@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 /* Import fonts */
@@ -26,7 +26,7 @@ body {
 
 .navigation-container {
   display: flex;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: auto;
   padding: 25px 0;
 }
@@ -72,7 +72,7 @@ body {
 
 /* Hero main section started */
 .hero-main-container {
-  max-width: 1400px;
+  max-width: 1300px;
   height: 80%;
   margin: auto;
   display: flex;
@@ -82,8 +82,9 @@ body {
 }
 
 .hero-text-container h1 {
-  font-size: 60px;
+  font-size: 70px;
   padding-bottom: 35px;
+  line-height: 65px;
 }
 
 .hero-text-container p {
@@ -110,7 +111,7 @@ body {
 
 .about {
   height: 255px;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -140,7 +141,7 @@ body {
 
 /* Logo section start */
 .home-logo {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -180,26 +181,72 @@ body {
 
 /* Features section start */
 .features {
-  height: 598px;
+  height: 550px;
+  max-width: 1300px;
+  margin: auto;
   display: flex;
-  overflow: hidden;
-  align-items: center;
+  overflow: hidden !important;
+  padding-top: 150px;
 }
 
 .features-text {
   width: 50%;
-  margin-right: 0;
-  padding-right: 0;
+  padding-top: 15px;
 }
 
 .features-left-side-img {
-  position: relative;
-  right: 5%;
+  position: absolute;
+  left: -4%;
+  height: 135px;
 }
 
+.features-text-first {
+  color: #009b4d;
+  font-weight: bold;
+}
+
+.features-text-heading {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 56px;
+}
+
+.features-text-blue-container {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.features-text-blue-bullet {
+  height: 16px;
+}
+
+.features-text-blue {
+  color: #3142c6;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.features-text-para-second {
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.features-line {
+  border-color: #3142c6;
+  width: 425px;
+}
 .features-image {
   width: 50%;
   position: relative;
-  left: 5%;
+}
+
+.features-image img {
+  height: 450px;
+  position: absolute;
+  right: -10%;
 }
 /* Features section end */
