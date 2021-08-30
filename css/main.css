@@ -77,7 +77,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
+  /* overflow: hidden; */
   align-items: center;
 }
 
@@ -85,6 +85,7 @@ body {
   font-size: 70px;
   padding-bottom: 35px;
   line-height: 65px;
+  min-width: 600px;
 }
 
 .hero-text-container p {
@@ -181,11 +182,10 @@ body {
 
 /* Features section start */
 .features {
-  height: 550px;
+  height: 590px;
   max-width: 1300px;
   margin: auto;
   display: flex;
-  overflow: hidden !important;
   padding-top: 150px;
 }
 
@@ -237,8 +237,39 @@ body {
 
 .features-line {
   border-color: #3142c6;
-  width: 425px;
+  width: 390px;
+  margin-bottom: 15px;
 }
+
+.features-engage-users {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.features-engage-users img {
+  height: 20px;
+}
+
+.features-engage-users p {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.features-develop-platform {
+  display: flex;
+  align-items: center;
+}
+
+.features-develop-platform img {
+  height: 18px;
+}
+
+.features-develop-platform p {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
 .features-image {
   width: 50%;
   position: relative;
@@ -250,3 +281,13 @@ body {
   right: -10%;
 }
 /* Features section end */
+
+/* Quote section start */
+.quotation {
+  height: 590px;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  padding-top: 150px;
+}
+/* Quote section end */
