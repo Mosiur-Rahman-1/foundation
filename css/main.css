@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
 }
 
 /* Import fonts */
@@ -26,29 +26,34 @@ body {
 
 .navigation-container {
   display: flex;
+  justify-content: space-between;
   max-width: 1300px;
   margin: auto;
   padding: 25px 0;
 }
 
 .navigation-links {
-  justify-content: flex-end;
   margin: auto;
   margin-right: 0px;
 }
 
-.navigation-links a li {
+.navigation-links li {
   list-style: none;
   float: left;
   color: rgb(25, 25, 26);
   padding-left: 45px;
 }
 
-.navigation-links a li:hover {
+.navigation-links li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation-links li a:hover {
   font-weight: 800;
 }
 
-.navigation-links a li:active {
+.navigation-links li a:active {
   font-weight: bold;
 }
 
@@ -56,15 +61,11 @@ body {
   padding-right: 52px;
 }
 
-/* #cta-before::after {
-    content: " ⬇ ";
-} */
-
 #contact-nav {
   background-color: #3040c4;
   padding: 10px 20px;
   margin-top: -10px;
-  color: #fff !important;
+  color: rgb(255, 255, 255) !important;
   border: none;
   border-radius: 2px;
   font-weight: 600;
@@ -183,15 +184,18 @@ body {
 /* Features section start */
 .features {
   height: 590px;
-  max-width: 1300px;
+  width: 100%;
   margin: auto;
   display: flex;
+  align-items: center;
   padding-top: 150px;
+  overflow: hidden;
 }
 
 .features-text {
   width: 50%;
   padding-top: 15px;
+  padding-left: 140px;
 }
 
 .features-left-side-img {
@@ -274,12 +278,11 @@ body {
 .features-image {
   width: 50%;
   position: relative;
+  left: 170px;
 }
 
 .features-image img {
   height: 450px;
-  position: absolute;
-  right: -10%;
 }
 /* Features section end */
 
@@ -355,3 +358,40 @@ body {
   margin: 15px 0 0 0;
 }
 /* Quote section end */
+
+/* features second part section start */
+.features-second-container-main {
+  height: 590px;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 20px;
+  /* background-color: #f1592b; */
+}
+
+.features-second-text-container {
+  width: 50%;
+}
+
+.features-second-text-first {
+  color: #0189d1;
+  font-weight: bold;
+}
+
+.features-second-gap {
+  padding: 0 0 40px 0;
+}
+
+.features-second-image-container {
+  width: 50%;
+}
+
+.features-second-image-container p {
+  padding: 10px 0 0 115px;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #707070;
+}
+/* features second part section end */
