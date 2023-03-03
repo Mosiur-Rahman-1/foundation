@@ -13,6 +13,8 @@
 
 body {
   font-family: "work sans", sans-serif;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .hero-container {
@@ -110,17 +112,22 @@ body {
 }
 
 /* About section*/
-
+.about_bg {
+  background-color: #f4f5f7;
+}
 .about {
-  height: 255px;
-  max-width: 1300px;
-  margin: auto;
+  max-width: 1500px;
+  width: 100vw;
+  height: 200px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .about-one {
   width: 50%;
+  margin-left: 7%;
 }
 
 .about-one h4 {
@@ -133,6 +140,7 @@ body {
 
 .about-two {
   max-width: 455px;
+  width: 50%;
 }
 
 .about-two h4 {
@@ -143,8 +151,9 @@ body {
 
 /* Logo section start */
 .home-logo {
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
+  padding: 4% 0 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
