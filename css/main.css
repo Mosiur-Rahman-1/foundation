@@ -228,9 +228,9 @@ body {
 }
 
 .features-left-side-img {
-  position: relative;
+  position: absolute;
   left: -4.5%;
-  top: 500px;
+  top: 1250px;
   height: 135px;
 }
 
