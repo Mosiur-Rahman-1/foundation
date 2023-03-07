@@ -214,12 +214,15 @@ body {
 /* Logo section end */
 
 /* Features section start */
+#features-hidden-image {
+  overflow: hidden;
+}
 .main-features-section {
   max-width: 1400px;
   margin: auto 8%;
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 100px;
   overflow: hidden;
 }
 .features-text {
@@ -228,9 +231,9 @@ body {
 }
 
 .features-left-side-img {
-  position: relative;
+  position: absolute;
   left: -4.5%;
-  top: 500px;
+  top: 1350px;
   height: 135px;
 }
 
@@ -262,6 +265,11 @@ body {
   color: #3142c6;
   font-weight: bold;
   padding-left: 10px;
+}
+.features-text-para {
+  line-height: 1.3;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .features-text-para-second {
@@ -314,15 +322,18 @@ body {
   font-weight: bold;
   padding-left: 10px;
 }
-
 .features-image {
-  position: absolute;
-  right: -15%;
+  /* position: absolute; */
+  /* right: -150px; */
 }
 
 .features-image img {
   height: 510px;
-  /* overflow: hidden; */
+}
+
+.features-right-side-img {
+  position: relative;
+  right: -150px;
 }
 /* Features section end */
 
