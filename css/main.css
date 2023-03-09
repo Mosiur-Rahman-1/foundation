@@ -214,27 +214,28 @@ body {
 /* Logo section end */
 
 /* Features section start */
-#features-hidden-image {
-  overflow: hidden;
-}
 .main-features-section {
-  max-width: 1400px;
-  margin: auto 8%;
-  display: flex;
-  align-items: center;
   padding-top: 100px;
   overflow: hidden;
-}
-.features-text {
-  width: 500px;
-  padding-top: 15px;
 }
 
 .features-left-side-img {
   position: absolute;
   left: -4.5%;
-  top: 500px;
+  top: 1450px;
   height: 135px;
+}
+
+.features-main-content {
+  max-width: 1400px;
+  margin: auto 8%;
+  display: flex;
+  align-items: center;
+}
+
+.features-text {
+  width: 500px;
+  padding-top: 15px;
 }
 
 .features-text-first {
@@ -323,15 +324,16 @@ body {
   padding-left: 10px;
 }
 .features-image {
-  /* position: absolute; */
-  /* right: -150px; */
+  position: relative;
+  right: -150px;
 }
 
 .features-image img {
   height: 510px;
 }
+*/
 
-.features-right-side-img {
+/* .features-right-side-img {
   position: relative;
   right: -150px;
 }
