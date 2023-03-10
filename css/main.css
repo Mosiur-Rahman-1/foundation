@@ -215,7 +215,7 @@ body {
 
 /* Features section start */
 .main-features-section {
-  padding-top: 100px;
+  padding: 100px 0 100px 0;
   overflow: hidden;
 }
 
@@ -227,7 +227,7 @@ body {
 }
 
 .features-main-content {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto 8%;
   display: flex;
   align-items: center;
@@ -336,7 +336,6 @@ body {
 /* Quote section start */
 .main-quote-container {
   background-color: rgba(252, 240, 227, 0.404);
-  border: #f1592b 0.05px solid;
 }
 .quotation {
   height: 690px;
@@ -349,7 +348,6 @@ body {
 
 .quotation-image-container {
   width: 50%;
-  border: #f1592b 0.05px solid;
 }
 
 .quotation-image-container p {
@@ -365,13 +363,12 @@ body {
 
 .quotation-text-container {
   width: 50%;
-  border: #f1592b 0.05px solid;
 }
 
 .quotation-text-first {
   color: #f1592b;
   font-weight: bold;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 35px;
 }
 
 .quotation-text-heading {
@@ -380,32 +377,38 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   line-height: 48px;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 35px;
 }
 .quotation-text-para {
   font-size: 18px;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 35px;
 }
 
 .quotation-text-para-second {
-  font-size: 14px;
+  font-size: 17px;
   padding: 25px 0 15px 0;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 35px;
 }
 
 .quotation-user-details {
   background-color: #ffffff;
   border-bottom: #0189d1 solid 3px;
-  max-width: 519px;
-  height: 213px;
-  margin: 0 0 0 25px;
+  max-width: 500px;
+  height: 200px;
+  margin-top: 15px;
+  padding: 15px 0 0 0;
+  box-shadow: 0px 2px 5px -6px rgba(0, 0, 0, 0.62);
 }
 .quotation-quote-container {
   margin: auto;
 }
 .quotation-user-text {
-  /* padding: 0 0 0 10px; */
   display: flex;
+  padding-top: 10px;
+}
+
+.quotation-user-img {
+  padding: 0 0 0 35px;
 }
 
 .quotation-user-name {
@@ -418,12 +421,6 @@ body {
   color: #707070;
   font-size: 12px;
   padding: 0 0 0 15px;
-}
-
-.quotation-line {
-  border-color: #0189d1;
-  width: 390px;
-  margin: 15px 0 0 0;
 }
 /* Quote section end */
 
