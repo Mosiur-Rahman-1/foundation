@@ -331,19 +331,17 @@ body {
 .features-image img {
   height: 510px;
 }
-*/
-
-/* .features-right-side-img {
-  position: relative;
-  right: -150px;
-}
 /* Features section end */
 
 /* Quote section start */
+.main-quote-container {
+  background-color: rgba(252, 240, 227, 0.404);
+  border: #f1592b 0.05px solid;
+}
 .quotation {
   height: 690px;
-  max-width: 1300px;
-  margin: auto;
+  max-width: 1400px;
+  margin: auto 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -351,6 +349,7 @@ body {
 
 .quotation-image-container {
   width: 50%;
+  border: #f1592b 0.05px solid;
 }
 
 .quotation-image-container p {
@@ -361,16 +360,18 @@ body {
 }
 
 .quotation-image-main {
-  height: 400px;
+  height: 450px;
 }
 
 .quotation-text-container {
   width: 50%;
+  border: #f1592b 0.05px solid;
 }
 
 .quotation-text-first {
   color: #f1592b;
   font-weight: bold;
+  margin: 0 0 0 25px;
 }
 
 .quotation-text-heading {
@@ -378,31 +379,45 @@ body {
   font-weight: bold;
   padding-top: 25px;
   padding-bottom: 25px;
-  line-height: 56px;
+  line-height: 48px;
+  margin: 0 0 0 25px;
+}
+.quotation-text-para {
+  font-size: 18px;
+  margin: 0 0 0 25px;
 }
 
 .quotation-text-para-second {
   font-size: 14px;
-  padding: 45px 0 15px 0;
+  padding: 25px 0 15px 0;
+  margin: 0 0 0 25px;
 }
 
 .quotation-user-details {
-  display: flex;
-  align-items: center;
-  padding: 20px 0 0 0;
+  background-color: #ffffff;
+  border-bottom: #0189d1 solid 3px;
+  max-width: 519px;
+  height: 213px;
+  margin: 0 0 0 25px;
+}
+.quotation-quote-container {
+  margin: auto;
 }
 .quotation-user-text {
-  padding: 0 0 0 10px;
+  /* padding: 0 0 0 10px; */
+  display: flex;
 }
 
 .quotation-user-name {
   font-weight: bold;
+  padding: 0 0 0 15px;
 }
 
 .quotation-user-company {
   font-weight: lighter;
   color: #707070;
   font-size: 12px;
+  padding: 0 0 0 15px;
 }
 
 .quotation-line {
